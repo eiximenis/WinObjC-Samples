@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CD3E6331BD7C4CE00632575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6321BD7C4CE00632575 /* main.m */; };
+		7CD3E6361BD7C4CE00632575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6351BD7C4CE00632575 /* AppDelegate.m */; };
+		7CD3E6391BD7C4CE00632575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6381BD7C4CE00632575 /* ViewController.m */; };
+		7CD3E63C1BD7C4CE00632575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD3E63A1BD7C4CE00632575 /* Main.storyboard */; };
+		7CD3E63E1BD7C4CE00632575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD3E63D1BD7C4CE00632575 /* Assets.xcassets */; };
+		7CD3E6411BD7C4CE00632575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD3E63F1BD7C4CE00632575 /* LaunchScreen.storyboard */; };
+		7CD3E64C1BD7C4CE00632575 /* WinControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E64B1BD7C4CE00632575 /* WinControlsTests.m */; };
+		7CD3E6571BD7C4CE00632575 /* WinControlsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6561BD7C4CE00632575 /* WinControlsUITests.m */; };
+		7CD3E6661BD7C53500632575 /* UiCreatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6651BD7C53500632575 /* UiCreatorHelper.m */; settings = {ASSET_TAGS = (); }; };
+		7CD3E6691BD7D01700632575 /* CustomCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3E6681BD7D01700632575 /* CustomCheckbox.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CD3E6481BD7C4CE00632575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD3E6261BD7C4CE00632575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD3E62D1BD7C4CE00632575;
+			remoteInfo = WinControls;
+		};
+		7CD3E6531BD7C4CE00632575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD3E6261BD7C4CE00632575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD3E62D1BD7C4CE00632575;
+			remoteInfo = WinControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CD3E62E1BD7C4CE00632575 /* WinControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD3E6321BD7C4CE00632575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CD3E6341BD7C4CE00632575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CD3E6351BD7C4CE00632575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CD3E6371BD7C4CE00632575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CD3E6381BD7C4CE00632575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CD3E63B1BD7C4CE00632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CD3E63D1BD7C4CE00632575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CD3E6401BD7C4CE00632575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CD3E6421BD7C4CE00632575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD3E6471BD7C4CE00632575 /* WinControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD3E64B1BD7C4CE00632575 /* WinControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinControlsTests.m; sourceTree = "<group>"; };
+		7CD3E64D1BD7C4CE00632575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD3E6521BD7C4CE00632575 /* WinControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD3E6561BD7C4CE00632575 /* WinControlsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinControlsUITests.m; sourceTree = "<group>"; };
+		7CD3E6581BD7C4CE00632575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD3E6641BD7C53500632575 /* UiCreatorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiCreatorHelper.h; sourceTree = "<group>"; };
+		7CD3E6651BD7C53500632575 /* UiCreatorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiCreatorHelper.m; sourceTree = "<group>"; };
+		7CD3E6671BD7D01700632575 /* CustomCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCheckbox.h; sourceTree = "<group>"; };
+		7CD3E6681BD7D01700632575 /* CustomCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCheckbox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CD3E62B1BD7C4CE00632575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E6441BD7C4CE00632575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E64F1BD7C4CE00632575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CD3E6251BD7C4CE00632575 = {
+			isa = PBXGroup;
+			children = (
+				7CD3E6301BD7C4CE00632575 /* WinControls */,
+				7CD3E64A1BD7C4CE00632575 /* WinControlsTests */,
+				7CD3E6551BD7C4CE00632575 /* WinControlsUITests */,
+				7CD3E62F1BD7C4CE00632575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD3E62F1BD7C4CE00632575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E62E1BD7C4CE00632575 /* WinControls.app */,
+				7CD3E6471BD7C4CE00632575 /* WinControlsTests.xctest */,
+				7CD3E6521BD7C4CE00632575 /* WinControlsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD3E6301BD7C4CE00632575 /* WinControls */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E6641BD7C53500632575 /* UiCreatorHelper.h */,
+				7CD3E6651BD7C53500632575 /* UiCreatorHelper.m */,
+				7CD3E6341BD7C4CE00632575 /* AppDelegate.h */,
+				7CD3E6351BD7C4CE00632575 /* AppDelegate.m */,
+				7CD3E6371BD7C4CE00632575 /* ViewController.h */,
+				7CD3E6381BD7C4CE00632575 /* ViewController.m */,
+				7CD3E63A1BD7C4CE00632575 /* Main.storyboard */,
+				7CD3E63D1BD7C4CE00632575 /* Assets.xcassets */,
+				7CD3E63F1BD7C4CE00632575 /* LaunchScreen.storyboard */,
+				7CD3E6421BD7C4CE00632575 /* Info.plist */,
+				7CD3E6311BD7C4CE00632575 /* Supporting Files */,
+				7CD3E66A1BD7D01C00632575 /* Windows Controls */,
+			);
+			path = WinControls;
+			sourceTree = "<group>";
+		};
+		7CD3E6311BD7C4CE00632575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E6321BD7C4CE00632575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CD3E64A1BD7C4CE00632575 /* WinControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E64B1BD7C4CE00632575 /* WinControlsTests.m */,
+				7CD3E64D1BD7C4CE00632575 /* Info.plist */,
+			);
+			path = WinControlsTests;
+			sourceTree = "<group>";
+		};
+		7CD3E6551BD7C4CE00632575 /* WinControlsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E6561BD7C4CE00632575 /* WinControlsUITests.m */,
+				7CD3E6581BD7C4CE00632575 /* Info.plist */,
+			);
+			path = WinControlsUITests;
+			sourceTree = "<group>";
+		};
+		7CD3E66A1BD7D01C00632575 /* Windows Controls */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3E6671BD7D01700632575 /* CustomCheckbox.h */,
+				7CD3E6681BD7D01700632575 /* CustomCheckbox.m */,
+			);
+			name = "Windows Controls";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD3E62D1BD7C4CE00632575 /* WinControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD3E65B1BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControls" */;
+			buildPhases = (
+				7CD3E62A1BD7C4CE00632575 /* Sources */,
+				7CD3E62B1BD7C4CE00632575 /* Frameworks */,
+				7CD3E62C1BD7C4CE00632575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinControls;
+			productName = WinControls;
+			productReference = 7CD3E62E1BD7C4CE00632575 /* WinControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CD3E6461BD7C4CE00632575 /* WinControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD3E65E1BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControlsTests" */;
+			buildPhases = (
+				7CD3E6431BD7C4CE00632575 /* Sources */,
+				7CD3E6441BD7C4CE00632575 /* Frameworks */,
+				7CD3E6451BD7C4CE00632575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD3E6491BD7C4CE00632575 /* PBXTargetDependency */,
+			);
+			name = WinControlsTests;
+			productName = WinControlsTests;
+			productReference = 7CD3E6471BD7C4CE00632575 /* WinControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CD3E6511BD7C4CE00632575 /* WinControlsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD3E6611BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControlsUITests" */;
+			buildPhases = (
+				7CD3E64E1BD7C4CE00632575 /* Sources */,
+				7CD3E64F1BD7C4CE00632575 /* Frameworks */,
+				7CD3E6501BD7C4CE00632575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD3E6541BD7C4CE00632575 /* PBXTargetDependency */,
+			);
+			name = WinControlsUITests;
+			productName = WinControlsUITests;
+			productReference = 7CD3E6521BD7C4CE00632575 /* WinControlsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CD3E6261BD7C4CE00632575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hel10;
+				TargetAttributes = {
+					7CD3E62D1BD7C4CE00632575 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					7CD3E6461BD7C4CE00632575 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7CD3E62D1BD7C4CE00632575;
+					};
+					7CD3E6511BD7C4CE00632575 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7CD3E62D1BD7C4CE00632575;
+					};
+				};
+			};
+			buildConfigurationList = 7CD3E6291BD7C4CE00632575 /* Build configuration list for PBXProject "WinControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CD3E6251BD7C4CE00632575;
+			productRefGroup = 7CD3E62F1BD7C4CE00632575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD3E62D1BD7C4CE00632575 /* WinControls */,
+				7CD3E6461BD7C4CE00632575 /* WinControlsTests */,
+				7CD3E6511BD7C4CE00632575 /* WinControlsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD3E62C1BD7C4CE00632575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3E6411BD7C4CE00632575 /* LaunchScreen.storyboard in Resources */,
+				7CD3E63E1BD7C4CE00632575 /* Assets.xcassets in Resources */,
+				7CD3E63C1BD7C4CE00632575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E6451BD7C4CE00632575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E6501BD7C4CE00632575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD3E62A1BD7C4CE00632575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3E6391BD7C4CE00632575 /* ViewController.m in Sources */,
+				7CD3E6691BD7D01700632575 /* CustomCheckbox.m in Sources */,
+				7CD3E6361BD7C4CE00632575 /* AppDelegate.m in Sources */,
+				7CD3E6661BD7C53500632575 /* UiCreatorHelper.m in Sources */,
+				7CD3E6331BD7C4CE00632575 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E6431BD7C4CE00632575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3E64C1BD7C4CE00632575 /* WinControlsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD3E64E1BD7C4CE00632575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3E6571BD7C4CE00632575 /* WinControlsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CD3E6491BD7C4CE00632575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CD3E62D1BD7C4CE00632575 /* WinControls */;
+			targetProxy = 7CD3E6481BD7C4CE00632575 /* PBXContainerItemProxy */;
+		};
+		7CD3E6541BD7C4CE00632575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CD3E62D1BD7C4CE00632575 /* WinControls */;
+			targetProxy = 7CD3E6531BD7C4CE00632575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CD3E63A1BD7C4CE00632575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD3E63B1BD7C4CE00632575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CD3E63F1BD7C4CE00632575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD3E6401BD7C4CE00632575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CD3E6591BD7C4CE00632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CD3E65A1BD7C4CE00632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CD3E65C1BD7C4CE00632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WinControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CD3E65D1BD7C4CE00632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WinControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CD3E65F1BD7C4CE00632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WinControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinControls.app/WinControls";
+			};
+			name = Debug;
+		};
+		7CD3E6601BD7C4CE00632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WinControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinControls.app/WinControls";
+			};
+			name = Release;
+		};
+		7CD3E6621BD7C4CE00632575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WinControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WinControls;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CD3E6631BD7C4CE00632575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WinControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hel10.winobjc.WinControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WinControls;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD3E6291BD7C4CE00632575 /* Build configuration list for PBXProject "WinControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD3E6591BD7C4CE00632575 /* Debug */,
+				7CD3E65A1BD7C4CE00632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD3E65B1BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD3E65C1BD7C4CE00632575 /* Debug */,
+				7CD3E65D1BD7C4CE00632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD3E65E1BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD3E65F1BD7C4CE00632575 /* Debug */,
+				7CD3E6601BD7C4CE00632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD3E6611BD7C4CE00632575 /* Build configuration list for PBXNativeTarget "WinControlsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD3E6621BD7C4CE00632575 /* Debug */,
+				7CD3E6631BD7C4CE00632575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CD3E6261BD7C4CE00632575 /* Project object */;
+}
